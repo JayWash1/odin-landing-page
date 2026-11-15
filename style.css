@@ -51,18 +51,12 @@ a {
 
 .hero-left {
     flex: 1 1 300px;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: space-around;
     box-sizing: border-box;
     padding: 75px 75px 75px 0px;
-    gap: 15px;
 }
 
 .hero-right {
     flex: 1 1 300px;
-    align-items: center;
-    justify-content: center;
     box-sizing: border-box;
     padding: 25px 0px 25px 25px;
 }
@@ -101,10 +95,6 @@ a {
     flex-shrink: 0;
 }
 
-.btn1 {
-    align-self: flex-start;
-}
-
 .btn2 {
     border: 2px solid white;
 }
@@ -113,9 +103,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding-bottom: 40px;
 }
 
@@ -189,11 +177,6 @@ a {
 
 .cta-text {
     font-weight: 100;
-}
-
-.cta-right  {
-    display: flex;
-    flex-shrink: 0;
 }
 
 .attribution {
