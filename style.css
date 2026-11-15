@@ -6,6 +6,16 @@
 
 header, footer, .hero {
     background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .hero-main-text {
@@ -19,8 +29,19 @@ header, footer, .hero {
     color: #E5E7EB;
 }
 
-.button-top, .call-to-action {
+.btn1, .call-to-action {
     background-color: #3882F6;
+    color: white;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.btn2 {
+    border: 2px solid white;
 }
 
 .information-heading {
